@@ -3,7 +3,7 @@
 import { useState, useEffect, use } from 'react';
 import { collection, query, where, getDocs } from 'firebase/firestore';
 import { db } from '../../../firebase';
-import AdBanner from '../../../components/AdBanner'; // 👈 استدعاء مكون الإعلانات
+import AdBanner from '@/app/components/AdBanner';
 
 export default function GiftPage({ params: paramsPromise }) {
   const params = use(paramsPromise);
