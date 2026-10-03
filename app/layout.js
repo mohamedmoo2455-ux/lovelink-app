@@ -13,8 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "LoveLink - بطاقات الهدايا السحرية 🎁",
-  description: "اصنع بطاقة هدايا سحرية بكلمة سر خاصة وخواطر وموسيقى",
+  title: 'LoveLink',
+  description: 'Share gifts with love',
+  other: {
+    'google-adsense-account': 'ca-pub-5651770638848657',
+  },
 };
 
 export default function RootLayout({ children }) {
