@@ -131,7 +131,7 @@ export default function Home() {
               <input
                 type="text"
                 required
-                placeholder="مثلاً: هدير"
+                placeholder="مثلاً: امي"
                 value={receiver}
                 onChange={(e) => setReceiver(e.target.value)}
                 className="w-full p-3 rounded-xl bg-[#120F24] border border-white/10 text-xs text-white outline-none focus:border-[#FF2E93]"
